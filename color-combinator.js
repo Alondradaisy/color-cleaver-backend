@@ -4,25 +4,25 @@
 
 function colorCombinator (combine) {
   if (combine === "red", "yellow") {
-  return orange;
-
-}  else if (combine === "yellow", "red")
-  return orange;
-
+  return "orange";
+  }
+  else if (combine === "yellow", "red")
+  return "orange";
+  
   if (combine === "red", "blue")
-  return purple;
-
+  return "purple";
+  
   if (combine === "blue", "red")
-  return purple;
+  return "purple";
 
   if (combine === "yellow", "blue")
-  return purple;
+  return "purple";
 
   if (combine === "blue", "yellow")
-  return green;
+  return "green";
 
   if (combine === "yellow", "blue")
-  return green;
+  return "green";
 }
 
 
